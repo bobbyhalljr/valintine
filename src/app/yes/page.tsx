@@ -26,7 +26,7 @@ export default function Component(){
             <div className='flex flex-col bg-red-500/30 rounded-2xl p-2 pb-12 items-center'>
                 <h1 className="text-3xl pt-12 font-bold text-[#ff4d4d] max-w-xl">I love you with all my heart mi amor!</h1>
                 <div className='pt-8'>
-                    <video className='rounded-xl w-full h-64' controls autoPlay loop muted>
+                    <video className='rounded-xl w-full h-64' controls controlsList="nofullscreen" autoPlay loop muted>
                     <source src='./bobbyVideo.mp4' type="video/mp4"></source>
                     </video>
                 </div>
